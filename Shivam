@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeSphere - Freelance Earn and Learn Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="epsproject.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-brand">
+        <img src="https://postimage.me/images/2025/04/18/e7692fb17b1047b75583de12db0ce732.png" alt="CodeSphere" style="height: 50px;">
+      </div>
+        <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Code. Create. Connect.</h1>
+            <p>Innovating Solutions, Empowering Businesses.</p>
+            <button class="cta-button">Get Started</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>CodeSphere is a cutting-edge software development company specializing in custom solutions, web and mobile app development, UI/UX design, and cloud services. </p>
+                    <p>We work closely with businesses of all sizes to deliver high-quality, tailored technology that drives growth and efficiency.</p>
+                </div>
+                <div class="about-image">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why Choose Us</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Expertise You Can Trust</h3>
+                    <p>Our team delivers high-quality solutions tailored to your needs.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Flexible and Timely Delivery</h3>
+                    <p>We work around your schedule to ensure on-time project completion.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Transparent Pricing</h3>
+                    <p>Clear and fair pricing with no hidden costs.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Always here when you need us</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Custom Solutions</h3>
+                    <p>We provide innovative and customized solutions to meet your specific requirements.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Reliable and Secure</h3>
+                    <p>Your project is in safe hands, with fast and secure payment options.
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fab fa-facebook"></i>
+                    <h3>Custom Software Development</h3>
+                    <p>Tailored software solutions that meet your specific business needs.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating intuitive and visually appealing designs for seamless user experiences.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fab fa-google"></i>
+                    <h3>Mobile App Development</h3>
+                    <p>Design and development of user-friendly mobile apps for iOS and Android.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-search"></i>
+                    <h3>Automation & Integration</h3>
+                    <p>Streamline operations and integrate systems to boost efficiency.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-share-alt"></i>
+                    <h3>Maintenance & Support</h3>
+                    <p>Ongoing support and maintenance to keep your projects running smoothly.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-pen"></i>
+                    <h3>Cloud Solutions</h3>
+                    <p>Scalable cloud infrastructure and services to support business growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Service Plans</h2>
+            <p class="section-subtitle">Choose the plan that fits your marketing goals</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>For Small Projects or Startups
+
+                        </h3>
+                        <div class="price">
+                            <span class="currency">₹</span>
+                            <span class="amount">999</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Up to 30 hours of development</li>
+                        <li><i class="fas fa-check"></i> Limited features and basic design</li>
+                        <li><i class="fas fa-check"></i> Email support for 1 month</li>
+                    </ul>
+                   <a href="https://upilinks.in/payment-link/upi1959058746" target="_blank">
+  <button class="pricing-button">Get Service</button>
+</a>
+
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-header">
+                        <div class="featured-badge">Most Popular</div>
+                        <h3>Pro Plan</h3>
+                        <div class="price">
+                            <span class="currency">₹</span>
+                            <span class="amount">1999</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Up to 100 hours of development</li>
+                        <li><i class="fas fa-check"></i> Custom UI/UX design and Email & chat support</li>
+                        <li><i class="fas fa-check"></i> 3 months of support & maintenance</li>
+                    </ul>
+                    <a href="https://upilinks.in/payment-link/upi884679626" target="_blank">
+  <button class="pricing-button">Get Service</button>
+</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Premium Plan</h3>
+                        <div class="price">
+                            <span class="currency">₹</span>
+                            <span class="amount">3999</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Unlimited development hours</li>
+                        <li><i class="fas fa-check"></i> Full custom design and advanced features</li>
+                        <li><i class="fas fa-check"></i> 6 months of dedicated support & maintenance + Advanced Security</li>
+                    </ul>
+                  <a href="https://upilinks.in/payment-link/upi162016463" target="_blank">
+  <button class="pricing-button">Get Service</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://postimage.me/images/2025/04/18/photo_2023-07-18_20-51-18-min-1.jpg" alt="Karthik Jibin">
+                    </div>
+                    <h3>Karthik Jibin</h3>
+                    <p>202301050030@mitaoe.ac.in</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://postimage.me/images/2025/04/18/shivam.png" alt="Shivam Khokale">
+                    </div>
+                    <h3>Shivam Khokale</h3>
+                    <p>202301050028@mitaoe.ac.in</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://postimage.me/images/2025/04/18/veerkar.jpg" alt="Atharv Veerkar">
+                    </div>
+                    <h3>Atharv Veerkar</h3>
+                    <p>202301050013@mitaoe.ac.in</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2>Client Reviews</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"CodeSphere turned our ideas into a fully functional app within weeks. Their team is highly skilled and delivered top-notch work with excellent support. Highly recommended"</p>
+                    <h4>Rohit D,</h4>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Working with CodeSphere was a game-changer for our business. They understood our requirements perfectly and provided a seamless experience from start to finish. A reliable partner for any tech needs!"</p>
+                    <h4>Ravi M.</h4>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"The team at CodeSphere exceeded our expectations. They helped us develop a custom software solution that improved our operations."</p>
+                    <h4>Avinash D</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                   <h3>Dehu Phata, Alandi (D), Tal. Khed, Pune.</h3>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+               <p>&copy; 2025 Sociopan. All rights reserved ~ 
+  <a href="mailto:rohitgagare99@gmail.com">@rohit_gagare</a>
+</p>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="epsproject.js"></script>
+</body>
+</html>
